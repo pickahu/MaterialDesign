@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, CoordinatorLayoutActivity.class));
                 break;
             case R.id.btn_appbarlayout:
+                startActivity(new Intent(MainActivity.this, AppbarLayoutActivity.class));
                 break;
         }
     }
