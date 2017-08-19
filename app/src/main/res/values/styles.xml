@@ -11,6 +11,7 @@
     <style name="ToolbarTheme" parent="Theme.AppCompat.Light">
         <!-- 设置 toolbar 溢出菜单的文字的颜色 -->
         <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textSize">25sp</item>
     </style>
 
 </resources>

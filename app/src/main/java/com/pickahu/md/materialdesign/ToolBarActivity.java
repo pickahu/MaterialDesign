@@ -38,13 +38,7 @@ public class ToolBarActivity extends BaseActivity {
         toolbar.setSubtitleTextColor(Color.BLACK);
         // 设置logo
         toolbar.setLogo(R.drawable.logo);
-        // 设置 NavigationIcon 点击事件
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+
         //设置 Toolbar menu
         toolbar.inflateMenu(R.menu.menu);
         // 设置溢出菜单的图标

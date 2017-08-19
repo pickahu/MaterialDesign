@@ -17,10 +17,10 @@
             android:layout_height="wrap_content"
             android:text="ToolBar" />
         <Button
-            android:id="@+id/CoordinatorLayout"
+            android:id="@+id/btn_toolbar_custom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="aa" />
+            android:text="自定义布局ToolBar" />
     </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
