@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         findViewById(R.id.btn_toolbar).setOnClickListener(this);
         findViewById(R.id.btn_toolbar_custom).setOnClickListener(this);
+        findViewById(R.id.btn_appbarlayout).setOnClickListener(this);
+        findViewById(R.id.btn_coordinator_layout).setOnClickListener(this);
     }
 
     @Override
@@ -25,6 +27,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_toolbar_custom:
                 startActivity(new Intent(MainActivity.this, ToolBarCustomActivity.class));
+                break;
+            case R.id.btn_coordinator_layout:
+                startActivity(new Intent(MainActivity.this, CoordinatorLayoutActivity.class));
+                break;
+            case R.id.btn_appbarlayout:
                 break;
         }
     }
