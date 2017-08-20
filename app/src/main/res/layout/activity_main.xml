@@ -37,6 +37,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="CollapsingToolbarLayout" />
+        <Button
+            android:id="@+id/btn_zonghe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="综合效果" />
     </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>

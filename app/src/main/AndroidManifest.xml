@@ -21,6 +21,7 @@
         <activity android:name=".CoordinatorLayoutActivity"></activity>
         <activity android:name=".AppbarLayoutActivity"></activity>
         <activity android:name=".CollapsingToolbarLayoutActivity"></activity>
+        <activity android:name=".ZongheActivity"></activity>
     </application>
 
 </manifest>
