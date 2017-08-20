@@ -20,6 +20,7 @@
         <activity android:name=".ToolBarCustomActivity"></activity>
         <activity android:name=".CoordinatorLayoutActivity"></activity>
         <activity android:name=".AppbarLayoutActivity"></activity>
+        <activity android:name=".CollapsingToolbarLayoutActivity"></activity>
     </application>
 
 </manifest>
